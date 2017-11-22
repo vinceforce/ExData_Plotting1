@@ -1,5 +1,5 @@
 ### Note for reviewing
-Set working directory to teh folder containing household_power_consumption.txt dataset file.
+Set working directory to the folder containing household_power_consumption.txt dataset file.
 
 ## Introduction
 
