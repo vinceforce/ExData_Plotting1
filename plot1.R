@@ -4,7 +4,6 @@ hpc <- read.table(file = "household_power_consumption.txt", na.strings = "NA", s
                   sep = ";", header = FALSE, as.is = rep(TRUE, 9))
 names(hpc) <- headers
 
-hpc$Global_active_power <- as.numeric(hpc$Global_active_power)
 gap <- hpc$Global_active_power
 gap <- gap[!is.na(gap) & gap <= 7.0]
 par(mfrow = c(1, 1))
